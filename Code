@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #003399;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about, .departments, .contact {
+            margin-bottom: 30px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #002266;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to XYZ College</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div>Shaping Futures, Building Leaders</div>
+</section>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>XYZ College is dedicated to providing world-class education and fostering innovation. With state-of-the-art facilities and experienced faculty, we ensure holistic development for our students.</p>
+    </section>
+
+    <section id="departments" class="departments">
+        <h2>Our Departments</h2>
+        <div class="card">Computer Science</div>
+        <div class="card">Mechanical Engineering</div>
+        <div class="card">Civil Engineering</div>
+        <div class="card">Electronics and Communication</div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div>
+            <img src="https://via.placeholder.com/300x200" alt="Campus Image 1">
+            <img src="https://via.placeholder.com/300x200" alt="Campus Image 2">
+            <img src="https://via.placeholder.com/300x200" alt="Campus Image 3">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@xyzcollege.edu</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 College Street, City, Country</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 XYZ College. All rights reserved.
+</footer>
+
+</body>
+</html>
